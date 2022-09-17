@@ -1,9 +1,14 @@
 import React from 'react'
+import './Header.css'
+import PetsIcon from '@mui/icons-material/Pets';
+import ForumIcon from '@mui/icons-material/Forum';
 
 function Header(){
     return (
-        <div>
-            <h2>I am a header lo</h2>
+        <div className="header">
+            <PetsIcon />
+            <h2>🐶</h2>
+            <ForumIcon />
         </div>
     )
 }
